@@ -16,7 +16,7 @@ public class EnsayoMenú {
 	public void ejecutar() {
 		Menú menú;
 		int entrada;
-		List<String> opciones = List.of("opción1", "opción2", "opción3", "opción4");
+		List<String> opciones = List.of("opción1", "segundo", "opción3", "opción4");
 		
 		menú = new Menú("Titulo", opciones);
 		menú.mostrarTítulo();
